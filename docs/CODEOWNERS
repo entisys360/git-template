@@ -1,0 +1,39 @@
+# A CODEOWNERS file uses a pattern that follows the same rules 
+# used in gitignore files.
+# Each line is a file pattern followed by one or more owners.
+
+# These users will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# these users will be requested for review when someone opens 
+# a pull request.
+*       @entisys360/approvers
+
+# Order is important; the last matching pattern takes the most
+# precedence. When someone opens a pull request that only
+# modifies Powershell files, only @powershell-owner and not the global
+# owner(s) will be requested for a review.
+*.ps1    @entisys360/powershell-owners
+
+# You can also use email addresses if you prefer. They'll be
+# used to look up users just like we do for commit author
+# emails.
+*.backup git-approvers@entisys360.com
+
+# In this example, @entisys360/approvers own any files in the build/logs
+# directory at the root of the repository and any of its
+# subdirectories.
+/build/logs/ @entisys360/approvers
+
+# The `docs/*` pattern will match files like
+# `docs/SECURITY.md` but not further nested files like
+# `docs/build-app/troubleshooting.md`.
+docs/*  @entisys360/documentation-owners
+
+# In this example, @entisys360/approvers own any file in an apps directory
+# anywhere in your repository.
+apps/ @entisys360/approvers
+
+# In this example, a user @doctocat owns any file in the `/docs`
+# directory in the root of your repository.
+/docs/ @doctocat
+
