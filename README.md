@@ -1,22 +1,25 @@
-![Logo of the project](./images/logo.sample.png)
+![Logo of the project](/docs/logo.sample.png)
 
-# Name of the project &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
+# Name of the project 
 > Additional information or tag line
 
 A brief description of your project, what it is used for.
 
-Example:
+### Example:
+
+# Git Repository Template
+> A pretty satisfactory Git repository
 
 This repository is a simple template useful as a reference or for initializing new git repositories.
 
 ## Installing / Getting started
 
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
+A quick introduction of the minimal setup you need to validate or use the contents of this repository.
 
-###Example:
+### Example:
 
 Follow the official Github documentation for creating a new repository using this template.
+
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
 
 ## Developing
@@ -25,7 +28,8 @@ https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cr
 List main libraries, frameworks used including versions (React, Angular etc...)
 
 ### Prerequisites
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
+What is needed to set up the dev environment. For instance, global dependencies 
+or any other tools. include download links.
 
 ### Setting up Dev
 
@@ -38,20 +42,23 @@ Include some commands
 commands here
 ```
 
-###Example: 
+Here you should say what actually happens when you execute the code above.
+
+### Example: 
+
+To modify this template repository check it out and make a branch.
 
 ```shell
 git clone https://github.com/entisys360/git-template.git
 cd git-template
+git checkout -b mybranchname
 ```
 
-Here you should say what actually happens when you execute the code above.
+The above checks out a copy of this repository locally then changes directory 
+into it before creating a new branch called "mybranchname".
 
-###Example: 
-
-Checks out a local copy of this repository.
-
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
+From there you can safely make any changes you see fit and submit them for 
+review to the user(s) listed in /docs/CODEOWNERS to update this repository.
 
 ### Building
 
@@ -68,7 +75,8 @@ Here again you should state what actually happens when the code above gets
 executed.
 
 ### Deploying / Publishing
-give instructions on how to build and release a new version
+
+Give instructions on how to build and release a new version
 In case there's some step you have to take that publishes this project to a
 server, this is the right time to state it.
 
@@ -80,13 +88,14 @@ And again you'd need to tell what the previous code actually does.
 
 ## Versioning
 
-We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
-
+Versioning should be decided on a case-by-case basis for each project. 
+Versioning details should be clearly documented here and enforced by 
+precommit-hooks where possible.
 
 ## Configuration
 
-Here you should write what are all of the configurations a user can enter when
-using the project.
+Here you should document any additional configuration required by the user 
+of this code. Include per-platform instructions or links where appropriate.
 
 ## Tests
 
@@ -99,16 +108,15 @@ Give an example
 
 ## Style guide
 
-Link to style guide.
-Explain your code style and show how to check it.
+Link to main style guide.
+Explain any code style changes and show how to validate.
 
-## Api Reference
+## Quick command reference / API reference
 
-If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
+Any information that you want to be quickly retrievable. A great place for 
+examples or common commands.
 
-
-## Resources
-
-Explaining what resources are required to use this code (operating system, database, web server, docker image, etc. Specify versions.) 
-Where possible provide links to sources..
+If there is an api that is external, link to api documentation. If the repo
+contains an api include authentication methods as well as explaining all the 
+endpoints with their required parameters.
 
