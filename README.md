@@ -55,11 +55,11 @@ To modify this template repository check it out and make a branch.
 ```shell
 git clone https://github.com/entisys360/git-template.git
 cd git-template
-git checkout -b mybranchname
+git checkout -b your_branch_name
 ```
 
 The above checks out a copy of this repository locally then changes directory 
-into it before creating a new branch called "mybranchname".
+into it before creating a new branch called "your_branch_name".
 
 From there you can safely make any changes you see fit and submit them for 
 review to the user(s) listed in /docs/CODEOWNERS to update this repository.
