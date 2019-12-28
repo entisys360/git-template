@@ -83,7 +83,7 @@ Give an example
 ## Style guide
 
 Link to main style guide.
-Explain any code style changes and show how to validate.
+Explain any code style changes specific to this repository and show how to validate.
 
 
 ## Quick command reference / API reference

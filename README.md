@@ -27,14 +27,14 @@ Clone this repository
 git clone https://github.com/entisys360/git-template.git
 ```
 
-Change directory into git-template
+Change directory into ./git-template
 
 Checkout a new branch
 ```shell
 git checkout -b your_new_branch_name
 ```
 
-Add a files and directories
+Add and/or modify files and directories
 ```shell
 git add your_new_files
 ```
