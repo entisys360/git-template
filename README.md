@@ -5,6 +5,7 @@
 
 A brief description of your project, what it is used for.
 
+
 ### Example:
 
 # Git Repository Template
@@ -12,15 +13,18 @@ A brief description of your project, what it is used for.
 
 This repository is a simple template useful as a reference or for initializing new git repositories.
 
+
 ## Installing / Getting started
 
 A quick introduction of the minimal setup you need to validate or use the contents of this repository.
+
 
 ### Example:
 
 Follow the official Github documentation for creating a new repository using this template.
 
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
+
 
 ## Developing
 
@@ -86,16 +90,19 @@ packagemanager deploy your-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
+
 ## Versioning
 
 Versioning should be decided on a case-by-case basis for each project. 
 Versioning details should be clearly documented here and enforced by 
 precommit-hooks where possible.
 
+
 ## Configuration
 
 Here you should document any additional configuration required by the user 
 of this code. Include per-platform instructions or links where appropriate.
+
 
 ## Tests
 
@@ -110,6 +117,7 @@ Give an example
 
 Link to main style guide.
 Explain any code style changes and show how to validate.
+
 
 ## Quick command reference / API reference
 
