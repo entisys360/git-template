@@ -1,7 +1,7 @@
 ![Logo of the project](/docs/logo.sample.png)
 
 # Git Repository Template
-> A basic Git repository that adheres to Entisys360's Git standards
+> A template repository that adheres to Entisys360's Git standards
 
 This repository is a template for initializing new git repositories or importing existing work.
 
