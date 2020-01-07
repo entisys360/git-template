@@ -1,4 +1,4 @@
-![Logo of the project](/docs/logo.sample.png)
+![Logo of the project](/docs/images/logo.sample.png)
 
 # Git Repository Template
 > A template repository that adheres to Entisys360's Git standards
