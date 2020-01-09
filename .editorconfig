@@ -1,5 +1,4 @@
 # EditorConfig is awesome: https://EditorConfig.org
-# Copy this file to the root of the repository and modify as needed
 
 # top-most EditorConfig file
 root = true
@@ -11,13 +10,18 @@ insert_final_newline = true
 
 # Matches multiple files with brace expansion notation
 # Set default charset
-[*.{js,py}]
+[*.{js,py,sh,ps1,yml}]
 charset = utf-8
 
 # 4 space indentation
-[*.py]
+[*.{py,sh,ps1}]
 indent_style = space
 indent_size = 4
+
+# 2 space indentation
+[*.yml]
+indent_style = space
+indent_size = 2
 
 # Tab indentation (no size specified)
 [Makefile]
