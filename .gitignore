@@ -1,3 +1,6 @@
+## Git ##
+.editorconfig
+
 ### Node ###
 
 # Logs
@@ -87,6 +90,3 @@ $RECYCLE.BIN/
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
-# Git
-.editorconfig
