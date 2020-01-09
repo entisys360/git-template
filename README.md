@@ -8,8 +8,9 @@ This repository is a template for initializing new git repositories or importing
 
 ## Installing / Getting started
 
-Follow the official Github documentation for creating a new repository 
-[using this template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+Follow the official Github 
+[documentation](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+for creating a new repository using this template.
 
 General Git usage information can be found in Entisys360's Microsoft Teams Git channel.
 
@@ -53,6 +54,6 @@ Push your commits upstream to the Git server
 git push --set-upstream origin your_branch_name
 ```
 
-Create a pull request when your branch is ready to 
-[merge](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-
+Create a 
+[pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+when your branch is ready to merge.
