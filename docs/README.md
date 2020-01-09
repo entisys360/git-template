@@ -1,7 +1,10 @@
 # Documentation Directory
 > Documentation scoped to this repository or project
 
-Directory to hold standard files common to all repositories as well as misc .md files documenting your project in this directory.
+This directory holds standard files common to all repositories as well as misc markdown 
+[.md](https://www.markdownguide.org/cheat-sheet/) files documenting your project.
+
+## Files
 
 README.md - Most directories (especially those in root) require a README file like this one.
 
