@@ -88,3 +88,5 @@ $RECYCLE.BIN/
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
+# Git
+.editorconfig
