@@ -16,3 +16,7 @@ Acts as an override to default repository owners and approvers in Github.
 styleguide.md - 
 Contains specific coding and style rules to append or override those defined at 
 https://github.com/entisys360/guidelines
+
+images/bob360.png - 
+Use this logo to encourage contributers to make happy little commits.
+
