@@ -18,5 +18,5 @@ Contains specific coding and style rules to append or override those defined in 
 [guidelines repository](https://github.com/entisys360/guidelines)
 
 images/bob360.png - 
-Use this logo to encourage contributers to make happy little commits.
+Use this logo to encourage contributers. A happy little tree has many branches. 
 
